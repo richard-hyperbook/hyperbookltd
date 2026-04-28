@@ -403,14 +403,16 @@ class MinimalMenuBar extends StatelessWidget {
                           ),
                         ),
                         TextButton(
-                          onPressed: () {},
+                          onPressed: () =>
+                              Navigator.pushNamed(context, AboutPage.name),
                           style: menuButtonStyle,
                           child: const Text(
                             "ABOUT",
                           ),
                         ),
                         TextButton(
-                          onPressed: () {},
+                          onPressed: () =>
+                              Navigator.pushNamed(context, ContactPage.name),
                           style: menuButtonStyle,
                           child: const Text(
                             "CONTACT",

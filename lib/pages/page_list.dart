@@ -17,57 +17,60 @@ class ListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF5F5F5),
-      body: CustomScrollView(
-        slivers: [
-          SliverList.list(
-            children: [
-              const MinimalMenuBar(),
-              const ListItem(
-                  imageUrl: "assets/images/hyperbook2.jpeg",
-                  title: listItemTitleText,
-                  description: listItemPreviewText),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: CustomScrollView(
+          slivers: [
+            SliverList.list(
+              children: [
+                const MinimalMenuBar(),
+                const ListItem(
+                    imageUrl: "assets/images/hyperbook2.jpeg",
+                    title: listItemTitleText,
+                    description: listItemPreviewText),
+                divider,
+                const ListItem(
+                    imageUrl:
+                        "assets/images/hyperbook3.jpeg",
+                    title: listItemTitleText,
+                    description: listItemPreviewText),
+                divider,
+                const ListItem(
+                    imageUrl: "assets/images/hyperbook4.jpeg",
+                    title: listItemTitleText,
+                    description: listItemPreviewText),
+                divider,
+                const ListItem(
+                    imageUrl:
+                        "assets/images/hyperbook5.jpeg",
+                    title: listItemTitleText,
+                    description: listItemPreviewText),
+                divider,
+                const ListItem(
+                    imageUrl:
+                        "assets/images/hyperbook6.jpeg",
+                    title: listItemTitleText,
+                    description: listItemPreviewText),
+                divider,
+                Container(
+                  padding: const EdgeInsets.symmetric(vertical: 80),
+                  child: const ListNavigation(),
+                ),
+              ].toMaxWidth(),
+            ),
+            SliverFillRemaining(
+              hasScrollBody: false,
+              child: MaxWidthBox(
+                  maxWidth: 1200,
+                  backgroundColor: Colors.white,
+                  child: Container()),
+            ),
+            ...[
               divider,
-              const ListItem(
-                  imageUrl:
-                      "assets/images/hyperbook3.jpeg",
-                  title: listItemTitleText,
-                  description: listItemPreviewText),
-              divider,
-              const ListItem(
-                  imageUrl: "assets/images/hyperbook4.jpeg",
-                  title: listItemTitleText,
-                  description: listItemPreviewText),
-              divider,
-              const ListItem(
-                  imageUrl:
-                      "assets/images/hyperbook5.jpeg",
-                  title: listItemTitleText,
-                  description: listItemPreviewText),
-              divider,
-              const ListItem(
-                  imageUrl:
-                      "assets/images/hyperbook6.jpeg",
-                  title: listItemTitleText,
-                  description: listItemPreviewText),
-              divider,
-              Container(
-                padding: const EdgeInsets.symmetric(vertical: 80),
-                child: const ListNavigation(),
-              ),
-            ].toMaxWidth(),
-          ),
-          SliverFillRemaining(
-            hasScrollBody: false,
-            child: MaxWidthBox(
-                maxWidth: 1200,
-                backgroundColor: Colors.white,
-                child: Container()),
-          ),
-          ...[
-            divider,
-            const Footer(),
-          ].toMaxWidthSliver(),
-        ],
+              const Footer(),
+            ].toMaxWidthSliver(),
+          ],
+        ),
       ),
     );
   }

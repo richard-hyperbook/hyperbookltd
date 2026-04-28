@@ -44,6 +44,8 @@ class MyApp extends StatelessWidget {
                   routesExcluded: const [
                     AirStudioPage.name,
                     HyperbookPage.name,
+                    AboutPage.name,
+                    ContactPage.name,
                   ], // Excluding a page from AutoScale.
                   builder: (context, child) => ResponsiveScaledBox(
                       // ResponsiveScaledBox renders its child with a FittedBox set to the `width` value.
@@ -81,6 +83,10 @@ class MyApp extends StatelessWidget {
         return const AirStudioPage();
       case HyperbookPage.name:
         return const HyperbookPage();
+      case AboutPage.name:
+        return const AboutPage();
+      case ContactPage.name:
+        return const ContactPage();
       default:
         return const SizedBox.shrink();
     }

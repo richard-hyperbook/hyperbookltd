@@ -81,6 +81,8 @@ class MyApp extends StatelessWidget {
               ], child: PostPage()),
             AirStudioPage.name => const AirStudioPage(),
             HyperbookPage.name => const HyperbookPage(),
+            AboutPage.name => const AboutPage(),
+            ContactPage.name => const ContactPage(),
             _ => const SizedBox.shrink(),
           },
         );
