@@ -352,7 +352,7 @@ class MinimalMenuBar extends StatelessWidget {
                     context,
                     Navigator.defaultRouteName,
                     ModalRoute.withName(Navigator.defaultRouteName)),
-                child: Text("MINIMAL",
+                child: Text("Hyperbook Ltd.",
                     style: GoogleFonts.montserrat(
                         color: textPrimary,
                         fontSize: 30,
@@ -385,18 +385,21 @@ class MinimalMenuBar extends StatelessWidget {
                           ),
                         ),
                         TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            print('(LTD1)${HyperbookPage.name}');
+                            Navigator.pushNamed(context, HyperbookPage.name);
+                          },
                           style: menuButtonStyle,
                           child: const Text(
-                            "PORTFOLIO",
+                            "HYPERBOOK",
                           ),
                         ),
                         TextButton(
                           onPressed: () =>
-                              Navigator.pushNamed(context, TypographyPage.name),
+                              Navigator.pushNamed(context, AirStudioPage.name),
                           style: menuButtonStyle,
                           child: const Text(
-                            "STYLE",
+                            "AIR Studio",
                           ),
                         ),
                         TextButton(

@@ -4,7 +4,7 @@ import 'package:minimal/utils/max_width_extension.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class AirStudioPage extends StatelessWidget {
-  static const String name = 'typography';
+  static const String name = 'airstudio';
 
   const AirStudioPage({super.key});
 

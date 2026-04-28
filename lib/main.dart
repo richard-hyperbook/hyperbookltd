@@ -79,7 +79,8 @@ class MyApp extends StatelessWidget {
                 Breakpoint(start: 481, end: 1200, name: TABLET),
                 Breakpoint(start: 1201, end: double.infinity, name: DESKTOP),
               ], child: PostPage()),
-            TypographyPage.name => const TypographyPage(),
+            AirStudioPage.name => const AirStudioPage(),
+            HyperbookPage.name => const HyperbookPage(),
             _ => const SizedBox.shrink(),
           },
         );

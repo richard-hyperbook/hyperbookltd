@@ -4,9 +4,9 @@ import 'package:minimal/utils/max_width_extension.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 // TODO Replace with object model.
-const String listItemTitleText = "A BETTER BLOG FOR WRITING";
+const String listItemTitleText = "APPs THAT RUN ON ANDROID, iOS AND WEB";
 const String listItemPreviewText =
-    "Sed elementum tempus egestas sed sed risus. Mauris in aliquam sem fringilla ut morbi tincidunt. Placerat vestibulum lectus mauris ultrices eros. Et leo duis ut diam. Auctor neque vitae tempus […]";
+    "Hyperbook Ltd. is a UK company delivering apps that run on all common platforms.";
 
 class ListPage extends StatelessWidget {
   static const String name = 'list';
@@ -23,30 +23,30 @@ class ListPage extends StatelessWidget {
             children: [
               const MinimalMenuBar(),
               const ListItem(
-                  imageUrl: "assets/images/paper_flower_overhead_bw_w1080.jpg",
+                  imageUrl: "assets/images/hyperbook2.jpeg",
                   title: listItemTitleText,
                   description: listItemPreviewText),
               divider,
               const ListItem(
                   imageUrl:
-                      "assets/images/iphone_cactus_tea_overhead_bw_w1080.jpg",
+                      "assets/images/hyperbook3.jpeg",
                   title: listItemTitleText,
                   description: listItemPreviewText),
               divider,
               const ListItem(
-                  imageUrl: "assets/images/typewriter_overhead_bw_w1080.jpg",
-                  title: listItemTitleText,
-                  description: listItemPreviewText),
-              divider,
-              const ListItem(
-                  imageUrl:
-                      "assets/images/coffee_paperclips_pencil_angled_bw_w1080.jpg",
+                  imageUrl: "assets/images/hyperbook4.jpeg",
                   title: listItemTitleText,
                   description: listItemPreviewText),
               divider,
               const ListItem(
                   imageUrl:
-                      "assets/images/joy_note_coffee_eyeglasses_overhead_bw_w1080.jpg",
+                      "assets/images/hyperbook5.jpeg",
+                  title: listItemTitleText,
+                  description: listItemPreviewText),
+              divider,
+              const ListItem(
+                  imageUrl:
+                      "assets/images/hyperbook6.jpeg",
                   title: listItemTitleText,
                   description: listItemPreviewText),
               divider,
