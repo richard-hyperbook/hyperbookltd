@@ -3,10 +3,10 @@ import 'package:minimal/components/components.dart';
 import 'package:minimal/utils/max_width_extension.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
-class TypographyPage extends StatelessWidget {
+class AirStudioPage extends StatelessWidget {
   static const String name = 'typography';
 
-  const TypographyPage({super.key});
+  const AirStudioPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,14 +20,14 @@ class TypographyPage extends StatelessWidget {
               alignment: Alignment.center,
               child: Container(
                 margin: marginBottom12,
-                child: Text("Typography", style: headlineTextStyle),
+                child: Text("AIR Studio", style: headlineTextStyle),
               ),
             ),
             Align(
               alignment: Alignment.center,
               child: Container(
                 margin: marginBottom24,
-                child: Text("Text styles for pages and posts.",
+                child: Text("An app to record AIRs for Art Therapists",
                     style: subtitleTextStyle),
               ),
             ),
@@ -39,14 +39,14 @@ class TypographyPage extends StatelessWidget {
               alignment: Alignment.center,
               child: Container(
                 margin: marginBottom12,
-                child: Text("Basic Styles", style: headlineSecondaryTextStyle),
+                child: Text("Try AIR Studiio", style: headlineSecondaryTextStyle),
               ),
             ),
             Align(
               alignment: Alignment.center,
               child: Container(
                 margin: marginBottom24,
-                child: Text("Simple to remember and use",
+                child: Text("______",
                     style: subtitleTextStyle),
               ),
             ),
@@ -58,14 +58,14 @@ class TypographyPage extends StatelessWidget {
               alignment: Alignment.centerLeft,
               child: Container(
                 margin: marginBottom24,
-                child: Text("Headline", style: headlineTextStyle),
+                child: Text("_____", style: headlineTextStyle),
               ),
             ),
             Align(
               alignment: Alignment.centerLeft,
               child: Container(
                 margin: marginBottom24,
-                child: Text("Headline Secondary",
+                child: Text("_____",
                     style: headlineSecondaryTextStyle),
               ),
             ),
@@ -73,7 +73,7 @@ class TypographyPage extends StatelessWidget {
               alignment: Alignment.centerLeft,
               child: Container(
                 margin: marginBottom24,
-                child: Text("Subtitle", style: subtitleTextStyle),
+                child: Text("____", style: subtitleTextStyle),
               ),
             ),
             Align(
@@ -81,7 +81,7 @@ class TypographyPage extends StatelessWidget {
               child: Container(
                 margin: marginBottom40,
                 child: Text(
-                    "Body text is the default text style. Use this text style for website content and paragraphs. This text is chosen to be easy and comfortable to read. As the default text style for large blocks of text, particular attention is placed on the choice of font. Some fonts are more comfortable to read than others.",
+                    "____",
                     style: bodyTextStyle),
               ),
             ),
