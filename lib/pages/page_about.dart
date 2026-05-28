@@ -220,8 +220,8 @@ HtmlWidget('''
 <li>By email: info.hyperbook@gmail.com</li>
 </ul>
            
-''';
-           ),
+'''
+),
 
             
             divider,
