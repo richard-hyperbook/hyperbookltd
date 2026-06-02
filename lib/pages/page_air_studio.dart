@@ -41,7 +41,7 @@ class AirStudioPage extends StatelessWidget {
                 alignment: Alignment.center,
                 child: Container(
                   margin: marginBottom12,
-                  child: Text("Try AIR Studiio", style: headlineSecondaryTextStyle),
+                  child: Text("Delete AIR Studiio", style: headlineSecondaryTextStyle),
                 ),
               ),
               Align(
