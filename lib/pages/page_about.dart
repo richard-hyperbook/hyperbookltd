@@ -24,7 +24,7 @@ class AboutPage extends StatelessWidget {
                 imageUrl: "assets/images/hyperbook2.jpeg",
                 title: listItemTitleText,
                 description: 'Hyperbook Ltd. is a UK-based company specilaising in the creation of multi-platform apps'),
-          ),
+        
             ],
       ),
 
