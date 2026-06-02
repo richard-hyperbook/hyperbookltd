@@ -28,7 +28,7 @@ class AboutPage extends StatelessWidget {
             ],
       ),
 
-
+),
     );
   }
 }
