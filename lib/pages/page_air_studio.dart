@@ -48,7 +48,7 @@ class AirStudioPage extends StatelessWidget {
                 alignment: Alignment.center,
                 child: Container(
                   margin: marginBottom24,
-                  child: Text("______",
+                  child: Text("To delete your account in AIR Studio:\n1. Go to the login page.\n2. Click on 'the Menu icon.\n3. Click on 'Profile.'\n4. Click on 'Delete Account''\n5. Follow the instrctions on the screen.",
                       style: subtitleTextStyle),
                 ),
               ),
