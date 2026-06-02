@@ -11,8 +11,8 @@ class PrivacyPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String listItemTitleText = 'LITT';
-    const String listItemPreviewText = 'LIPT';
+    const String listItemTitleText = '';
+    const String listItemPreviewText = '';
     return Scaffold(
       backgroundColor: const Color(0xFFF5F5F5),
       body: Padding(
@@ -21,7 +21,7 @@ class PrivacyPage extends StatelessWidget {
           children: [
             const MinimalMenuBar(),
             const ListItem(
-                imageUrl: "assets/images/hyperbook2.jpeg",
+              //  imageUrl: "assets/images/hyperbook2.jpeg",
                 title: listItemTitleText,
                 description: 'Hyperbook Ltd. is a UK-based company specilaising in the creation of multi-platform apps'),
 HtmlWidget('''
