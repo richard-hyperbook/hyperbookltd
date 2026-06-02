@@ -83,6 +83,7 @@ class MyApp extends StatelessWidget {
             HyperbookPage.name => const HyperbookPage(),
             AboutPage.name => const AboutPage(),
             ContactPage.name => const ContactPage(),
+            PrivacyPage.name => const PrivacyPage(),
             _ => const SizedBox.shrink(),
           },
         );
