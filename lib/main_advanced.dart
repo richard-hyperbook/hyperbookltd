@@ -46,6 +46,7 @@ class MyApp extends StatelessWidget {
                     HyperbookPage.name,
                     AboutPage.name,
                     ContactPage.name,
+                    PrivacyPage.name,
                   ], // Excluding a page from AutoScale.
                   builder: (context, child) => ResponsiveScaledBox(
                       // ResponsiveScaledBox renders its child with a FittedBox set to the `width` value.
@@ -87,6 +88,8 @@ class MyApp extends StatelessWidget {
         return const AboutPage();
       case ContactPage.name:
         return const ContactPage();
+      case PrivacyPage.name:
+        return const PrivacyPage();
       default:
         return const SizedBox.shrink();
     }
