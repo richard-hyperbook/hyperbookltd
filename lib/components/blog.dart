@@ -417,6 +417,13 @@ class MinimalMenuBar extends StatelessWidget {
                           child: const Text(
                             "CONTACT",
                           ),
+                        TextButton(
+                          onPressed: () =>
+                              Navigator.pushNamed(context, PrivacyPage.name),
+                          style: menuButtonStyle,
+                          child: const Text(
+                            "PRIVACY POLICY",
+                          ),
                         ),
                       ],
                     ),
